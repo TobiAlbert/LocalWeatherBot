@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jublonet/codebird-php": "^3.1",
+        "cmfcmf/openweathermap-php-api": "^2.2"
+    }
+}
