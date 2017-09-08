@@ -23,6 +23,6 @@ Tobi Daada
 I can't comeup with every cool feature, so feel free to add any change you'll like to see.
 
 ## Acknowledgements
-[Code Course](www.youtube.com/codedourse)
+[Code Course](www.youtube.com/codecourse)
 [The Coding Train](www.youtube.com/thecodingtrain)
 
