@@ -36,7 +36,7 @@ function some_callback($message)
         $tweet = strtolower($message['text']);
 
         //Use Regex to get City from the tweet format
-        preg_match('/weather in(.*?)@localweatherbot/', $tweet, $match);
+        preg_match('/weather in(.*?)@urweatherbot/', $tweet, $match);
         $city = trim($match[1]);
 
         if ($city !== "") {
@@ -54,8 +54,8 @@ function some_callback($message)
 // set the streaming callback in Codebird
 $cb->setStreamingCallback('some_callback');
 
-//set it to track tweets that contain '@localweatherbot'
-$cb->statuses_filter('track=@localweatherbot');
+//set it to track tweets that contain '@urweatherbot'
+$cb->statuses_filter('track=@urweatherbot');
 
 //Start consuming the stream
 $userStreamParams = [
